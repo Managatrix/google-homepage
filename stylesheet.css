@@ -1,0 +1,45 @@
+a.header {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  opacity: 0.75;
+  font-size: 13px;
+  font-family: arial;
+}
+
+a.header:hover {
+  text-decoration: underline;
+}
+
+nav.header {
+  float: right;
+  margin-right: 6px;
+  line-height: 36px;
+}
+
+a.profile img {
+  border-radius: 60px;
+  width: 32px;
+}
+
+a.bell img, a.apps img {
+  width: 20px;
+}
+
+div.header {
+  padding-right: 15px;
+}
+/* main content */
+.content {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+}
+
+div.content img {
+  width: 272px;
+}
+
+div.content input {
+  width: 520px;
+}
