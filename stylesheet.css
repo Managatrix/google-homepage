@@ -69,16 +69,25 @@ div.content form input {
 
 div.content input.bar {
   line-height: 34px;
-  width: 632px;
-  height: 34px;
+  width: 559px;
+  height: 42px;
   font-size: 16px;
   padding: 0;
-  margin-top: 30px;
+  margin-top: -8px;
+  left: 38px;
+  box-shadow: 0 2px 5px #E6E6E6;
+  border: 1px solid;
+  border-color: #EAEAEA #E6E6E6 #CBCBCB #DDDDDD;
+  padding: 3px 9px 0 16px;
+}
+
+div.content input.bar:hover, div.content input.bar:focus {
+  box-shadow: 2px 5px 3px #E6E6E6;
 }
 
 div.content input.button {
   height: 36px;
-  width: 120;
+  width: 120px;
   line-height: 27px;
   border-radius: 2px;
   background-color: #f2f2f2;
@@ -91,6 +100,17 @@ div.content input.button {
 div.content div.buttons {
   margin-top: 30px;
   text-align: center;
+}
+
+div.content p {
+  font-family: arial;
+  color: rgb(66, 133, 244);
+  font-size: 16px;
+  position: relative;
+  left: 403px;
+  top: -32px;
+  width: 80px;
+  margin-bottom: 0;
 }
 /* footer */
 a.footer {
