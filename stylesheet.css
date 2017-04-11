@@ -24,6 +24,10 @@ a.profile img {
   width: 32px;
 }
 
+a.bell img {
+  border-radius: 60px;
+}
+
 a.bell img, a.apps img {
   width: 20px;
 }
@@ -41,18 +45,27 @@ div.hr a.profile {
 }
 /* main content */
 .content {
-  width: 600px;
+  width: 648px;
   display: block;
-  margin: 0 auto;
   clear: both;
+  margin: auto;
+  top: 154px;
 }
 
 div.content img {
   width: 272px;
+  position: relative;
 }
 
 div.content input {
   width: 632px;
+  height: 34px;
+  line-height: 34px;
+  position: relative;
+  font-size: 16px;
+  font-family: arial;
+  margin-top: 30px;
+  padding: 0;
 }
 /* footer */
 a.footer {
