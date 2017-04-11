@@ -1,19 +1,22 @@
-a.header {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  opacity: 0.75;
-  font-size: 13px;
-  font-family: arial;
+a {
+    text-decoration: none;
+    font-family: arial;
+    font-size: 13px;
 }
 
-a.header:hover {
+a:hover {
   text-decoration: underline;
+}
+/* header */
+a.header {
+  color: rgb(0, 0, 0);
+  opacity: 0.75;
 }
 
 nav.header {
   float: right;
-  margin-right: 6px;
-  line-height: 36px;
+  margin-right: 20px;
+  clear: both;
 }
 
 a.profile img {
@@ -25,8 +28,16 @@ a.bell img, a.apps img {
   width: 20px;
 }
 
-div.header {
+nav.header div {
+  display: inline;
+}
+
+nav.header div a {
   padding-right: 15px;
+}
+
+div.hr a.profile {
+  padding-right: 0;
 }
 /* main content */
 .content {
@@ -41,5 +52,28 @@ div.content img {
 }
 
 div.content input {
-  width: 520px;
+  width: 632px;
+}
+/* footer */
+a.footer {
+  color: rgb(102, 102, 102);
+}
+
+nav.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  clear: both;
+  background-color: #F2F2F2;
+  height: 40px;
+  border-top: 1px solid #E4E4E4;
+}
+
+nav.footer div.fl {
+  float: left;
+}
+
+nav.footer div.fr {
+  float: right;
 }
