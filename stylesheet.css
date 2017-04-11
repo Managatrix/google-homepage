@@ -68,12 +68,18 @@ nav.footer {
   background-color: #F2F2F2;
   height: 40px;
   border-top: 1px solid #E4E4E4;
+  line-height: 40px;
 }
 
-nav.footer div.fl {
+nav.footer div a {
+}
+
+nav.footer div.fl a {
   float: left;
+  padding-left: 30px;
 }
 
-nav.footer div.fr {
+nav.footer div.fr a {
   float: right;
+  padding-right: 30px;
 }
