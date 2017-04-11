@@ -11,12 +11,22 @@ a:hover {
 a.header {
   color: rgb(0, 0, 0);
   opacity: 0.75;
+  position: relative;
+  bottom: 10px;
 }
 
-nav.header {
+ul.header {
   float: right;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-top: 5px;;
   clear: both;
+  height: 36px;
+}
+
+ul.header li {
+  display: inline;
+  position: relative;
+  line-height: 45.5px;
 }
 
 a.profile img {
@@ -30,18 +40,27 @@ a.bell img {
 
 a.bell img, a.apps img {
   width: 20px;
+  position: relative;
+  bottom: 5px;
+}
+
+a.bell img:hover, a.apps img:hover {
+  opacity: 0.5;
 }
 
 nav.header div {
   display: inline;
 }
 
-nav.header div a {
+nav.header ul a {
   padding-right: 15px;
+  display: inline-block;
+  line-height: 36px;
 }
 
 div.hr a.profile {
   padding-right: 0;
+  margin-right: 10px;
 }
 /* main content */
 .content {
@@ -52,7 +71,7 @@ div.hr a.profile {
 }
 
 div.content {
-  top: 154px;
+  top: 134px;
   position: relative;
 }
 
@@ -87,7 +106,8 @@ div.content input.bar:hover, div.content input.bar:focus {
 
 div.content input.button {
   height: 36px;
-  width: 120px;
+  width: 154px;
+  padding: 0 16px;
   line-height: 27px;
   border-radius: 2px;
   background-color: #f2f2f2;
@@ -95,11 +115,27 @@ div.content input.button {
   color: #757575;
   font-weight: bold;
   font-size: 13px;
+  margin-right: 3px;
+}
+
+div.content input[name=lucky] {
+  width: 142px;
+}
+
+div.content input.button:focus {
+  border-color: #4D90FE;
+}
+div.content input.button:hover {
+  border-color: #C6C6C6;
+  color: #222;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 div.content div.buttons {
-  margin-top: 30px;
+  margin-top: 31px;
   text-align: center;
+  position: relative;
+  left: 2px;
 }
 
 div.content p {
